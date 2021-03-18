@@ -1,10 +1,11 @@
 .card-container {
+  font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   background: #95dada;
   border: 1px solid grey;
   border-radius: 5px;
-  padding: 25px;
+  padding: 2.5rem;
   cursor: pointer;
   -moz-osx-font-smoothing: greyscale;
   backface-visibility: hidden;
@@ -14,4 +15,12 @@
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 1600px){
+  .card-container{
+    font-size: 4rem;
+    word-wrap: break-word;
+    padding-bottom: 4rem;
+  }
 }
